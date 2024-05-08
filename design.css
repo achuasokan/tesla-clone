@@ -1,0 +1,661 @@
+body{
+  font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+padding: 0px;
+margin: 0px;
+
+}
+.nav-bar{
+  width:100%;
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+}
+.main-container{
+  width: 100%;
+  height:100vh;
+}
+.Model-Y{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.left-nav{
+  margin-left:54px;
+  margin-top: 12px;
+  width:150px;
+  
+}
+.logo{
+ height:20px;
+ width:120px;
+
+}
+.center-nav{
+ 
+ margin:0;
+ flex:8;
+  
+ 
+  
+}
+.right-nav{
+  flex:2;
+  margin:0;
+}
+.menu-list{
+  list-style: none;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  margin-top:0px;
+  margin-right: 8px;
+  
+}
+.nav>a{
+  padding-top:6px ;
+  padding-right:7px;
+  width:16px;
+  text-decoration: none;
+  font-stretch: expanded;
+  font-weight:500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #171a20;
+  
+}
+.heading-container{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header{
+  
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:   #171A20;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.price{
+  font-size: 20px;
+  color:#171A20;
+  font-weight:500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+
+}
+.details{
+  font-size: 12px;
+  color:#171A20;
+  font-weight:400;
+  margin-top: 0px;
+  margin-bottom:0px;
+  letter-spacing: 1px;
+
+}
+.button{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+}
+.button1{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+border-color:white;
+border-width: 0px;
+Color:#000000;
+font-size: 14px;
+font-weight: 500;
+
+}
+.button2{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color:#3c3b3b;
+color:#eeeeee;
+
+}
+/* 2nd page */
+
+.image-container-3{
+  width: 100%;
+  height:100vh;
+
+ 
+}
+.main-background-1{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container1{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header1{
+  
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:   #171A20;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.price-1{
+  font-size: 20px;
+  color:#171A20;
+  font-weight:500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+
+}
+.details-1{
+  font-size: 12px;
+  color:#171A20;
+  font-weight:400;
+  margin-top: 0px;
+  margin-bottom:1px;
+  letter-spacing: 1px;
+
+}
+.button-container1{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+}
+.button-1-3{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+border-color:white;
+border-width: 0px;
+Color:#000000;
+font-size: 14px;
+font-weight: 500;
+
+}
+.button-2-3{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color:#222222;
+color:#eeeeee;
+font-size: 14px;
+}
+
+/* 3 */
+.image-container-X{
+  width: 100%;
+  height:100vh;
+
+ 
+}
+.main-background-2{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container2{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header2{
+  
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:   #171A20;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.price-2{
+  font-size: 20px;
+  color:#171A20;
+  font-weight:500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+
+}
+.details-2{
+  font-size: 12px;
+  color:#171A20;
+  font-weight:400;
+  margin-top: 0px;
+  margin-bottom:1px;
+  letter-spacing: 1px;
+
+}
+.button-container2{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+}
+.button-1-X{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+border-color:white;
+border-width: 0px;
+Color:#000000;
+font-size: 14px;
+font-weight: 500;
+
+}
+.button-2-X{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color: grey;
+color:#eeeeee;
+}
+
+/* 4 */
+.image-container-S{
+  width: 100%;
+  height:100vh;
+
+ 
+}
+.main-background-3{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container3{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header3{
+  
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:   #171A20;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.price-3{
+  font-size: 20px;
+  color:#171A20;
+  font-weight:500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+
+}
+.details-3{
+  font-size: 12px;
+  color:#171A20;
+  font-weight:400;
+  margin-top: 0px;
+  margin-bottom:1px;
+  letter-spacing: 1px;
+
+}
+.button-container3{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+}
+.button-1-S{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+border-color:white;
+border-width: 0px;
+Color:#000000;
+font-size: 14px;
+font-weight: 500;
+
+}
+.button-2-S{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color: grey;
+color:#eeeeee;
+}
+
+/* 5 */
+.image-container-cyber{
+  width: 100%;
+  height:100vh;
+
+ 
+}
+.main-background-4{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container4{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header4{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width:500px;
+}
+.button-container4{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+ 
+}
+.button-1-cyber{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+background-color:#111111;
+border-width: 0px;
+Color:#A2A3A5;
+font-size: 14px;
+font-weight: 500;
+border-top:#A2A3A5 ;
+border-width: 2px;
+border-style: solid;
+cursor:pointer;
+
+}
+.button-2-cyber{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color: #111111;
+color:#A2A3A5;
+border-color: white;
+border-width: 1px;
+border-style:solid;
+cursor: pointer;
+
+}
+
+/* 6 */
+.image-container-Solar{
+  width: 100%;
+  height:100vh;
+}
+.main-background-5{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container5{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header5{ 
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:  white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.details-4{
+  font-size: 12px;
+  color:white;
+  font-weight:400;
+  margin-top: 0px;
+  margin-bottom:1px;
+  letter-spacing: 1px;
+
+}
+.button-container5{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+ 
+}
+.button-1-Solar{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+border-color:white;
+border-width: 0px;
+Color:#000000;
+font-size: 14px;
+font-weight: 500;
+
+}
+.button-2-Solar{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color: grey;
+color:#eeeeee;
+}
+
+/* 7 */
+
+.image-container-Roof{
+  width: 100%;
+  height:100vh;
+}
+.main-background-6{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container6{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header6{ 
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:  black;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.details-5{
+  font-size: 12px;
+  color:black;
+  font-weight:400;
+  margin-top: 0px;
+  margin-bottom:1px;
+  letter-spacing: 1px;
+
+}
+.button-container6{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+ 
+}
+.button-1-roof{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+border-color:white;
+border-width: 0px;
+Color:#000000;
+font-size: 14px;
+font-weight: 500;
+
+}
+.button-2-roof{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color: grey;
+color:#eeeeee;
+}
+/* 8 */
+.image-container-power{
+  width: 100%;
+  height:100vh;
+}
+.main-background-7{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container7{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header7{ 
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:  black;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.button-container7{
+  position: absolute;
+  left: 459px;
+  top: 468px;
+ 
+}
+.button-1-power{
+  margin:10px;
+  height: 40px;
+  width:265px;
+border-radius: 4px;
+border-style: solid;
+border-color:white;
+border-width: 0px;
+Color:#000000;
+font-size: 14px;
+font-weight: 500;
+
+}
+.button-2-power{
+  margin:10px;
+height: 38px;
+width:265px;
+border-radius: 5px;
+background-color: grey;
+color:#eeeeee;
+}
+
+/* 9 */
+.image-container-Accessories{
+  width: 100%;
+  height:100vh;
+}
+.main-background-8{
+  width: 100%;
+  position:absolute;
+  object-fit: contain;
+}
+.heading-container8{
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+.header8{ 
+  font-size:40px;
+  font-weight:500;
+  font-stretch: 100%;
+  color:  black;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.button-container8{
+  position: absolute;
+  left: 593px;
+  top: 469px;
+ 
+}
+.button-2-Accessories{
+  margin:11px;
+height: 38px;
+width:265px;
+border-radius: 4px;
+background-color: white;
+color:#393C41;
+font-size: 14px;
+font-weight: 500;
+border-color: black;
+border-width: 1px;
+border-style: solid;
+padding-left: 5px;
+padding-right: 5p;
+}
+/* 10 */
+.one{
+  flex:2
+}
+.two{
+  flex:5;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  padding-top: 25px;
+  color:#D0D1D2;
+  margin:3px;
+  align-items: start;
+ 
+}
+.three{
+  
+  flex:2;
+}
+.back{
+  display: flex;
+  flex-direction: row;
+  background-color:   #000000;
+  padding-top: 189px;
+
+  
+ 
+}
+
+
+
